@@ -5,7 +5,19 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundColor: {
+        default: '#F8F8FF'
+      },
+      colors: {
+        primary: '#333333',
+        default: '#F8F8FF'
+      },
+      fontFamily: {
+        'header': ['Rubik Dirt', 'system-ui'],
+        'text': ['IBM Plex Serif', 'serif']
+      },
+    },
   },
   plugins: [],
 }

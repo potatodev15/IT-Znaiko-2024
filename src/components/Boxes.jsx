@@ -3,9 +3,9 @@ import { FaStar } from "react-icons/fa";
 
 const Boxes = () => {
   return (
-    <div className='w-full h-[105vh] md:h-[70vh] pt-10 bg-green-500'>
+    <div className='w-full h-[105vh] md:h-[70vh] pt-10 bg-default font-text text-primary'>
         <div className='max-w-[1240px] mx-auto flex flex-col justify-center items-center pt-[20px] gap-20'>
-            <h1 className='text-6xl text-center'>Защо коткоистория</h1>
+            <h1 className='text-6xl text-center font-header'>Защо коткоистория</h1>
             <div className='max-w-[1240px] flex flex-row flex-wrap items-center justify-center md:justify-between gap-10'>
                 <div className='w-[300px] h-[350px] bg-gray-500 flex flex-col justify-evenly items-center p-5 text-center border-2 border-blue-500 border-dashed rounded-xl'>
                     <FaStar />
