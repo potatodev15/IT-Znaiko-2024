@@ -1,20 +1,23 @@
 import React from 'react'
 import hero from '../assets/hero.png'
 import ReactTyped from 'react-typed'
+import { GoArrowDownRight } from "react-icons/go";
+import { GoArrowDown } from "react-icons/go";
+import styles from './style'
 
 const Hero = () => {
   return (
     <div className='w-full h-screen bg-default pt-[80px] font-text text-primary'>
         <div className='max-w-[1240px] h-full mx-auto grid md:grid-cols-2 md:gap-10 gap-0'>
-            <div className='w-[100%] h-[90%] flex flex-col justify-center items-start gap-[50px] bg-yellow-500 text-center md:text-start'>
+            <div className='w-[100%] h-[90%] flex flex-col justify-center items-start gap-[50px] text-center md:text-start'>
               <h1 className='w-full text-6xl md:text-6xl text-primary font-header'>Коткоистория</h1>
-              <p className='font-text'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis quibusdam, neque modi ab rerum aut earum perspiciatis saepe perferendis? Reprehenderit voluptatem labore incidunt soluta cum a quis? Laudantium, autem similique?</p>
+              <p className='font-text'>Добре дошли в Коткоистория, вашият виртуален атлас за удивителни истории, факти и породи котки. Потопете се във вълнуващия свят на котките, където тайнствеността и елегантността привличат.</p>
               <div className='w-full flex flex-col md:flex-row gap-5 justify-center items-center md:justify-start md:items-start'>
-                <button className="w-[80%] py-[15px] px-[25px] bg-blue-500">Button 1</button>
-                <button className='w-[80%] py-[15px] px-[25px] bg-blue-500'>Button 2</button>
+                <button className={`w-[80%] ${styles.lightRedButton} ${styles.flexButton}`}>Разгледай <GoArrowDownRight size={20}/></button>
+                <button className={`w-[80%] ${styles.lightRedBorder} ${styles.flexButton}`}>С какво помагаме <GoArrowDown size={20}/></button>
               </div>
             </div>
-            <div className='w-[100%] h-[90%] flex flex-col justify-center items-center bg-blue-500'>
+            <div className='w-[100%] h-[90%] flex flex-col justify-center items-center'>
               <img src={hero} alt="/" className='w-full'/>
             </div>
         </div>

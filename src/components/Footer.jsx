@@ -30,11 +30,11 @@ const Footer = () => {
         </div>
         <div className='flex flex-col justify-start items-start'>
           <div className='w-[100%] flex flex-row gap-3'>
-            <input type="text" className='w-[80%] p-[15px] rounded-md'/>
+            <input type="email" className='w-[80%] p-[15px] rounded-md'/>
             <button className='w-[20%] bg-red-900 flex flex-row justify-center items-center text-white rounded-md'><IoSendSharp /></button>
           </div>
-          <div className='w-full flex flex-col justify-center items-center'>
-            <h1 className='text-3xl text-default font-header text-center'>Имаш въпрос? Задай го тук.</h1>
+          <div className='w-full flex flex-col justify-center items-center mt-[20px]'>
+            <h1 className='text-3xl text-default font-header text-center'>Седмичен вот, <br />за най-готини породи!</h1>
             <a href='https://example.com' className='text-default underline'>Виж нашите ToS (Terms of service)</a>
           </div>
         </div>
