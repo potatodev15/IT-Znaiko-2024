@@ -1,6 +1,5 @@
 import React from 'react'
 import hero from '../assets/cat-hero.png'
-import ReactTyped from 'react-typed'
 import { GoArrowDownRight } from "react-icons/go";
 import { GoArrowDown } from "react-icons/go";
 import styles from './style'
