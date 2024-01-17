@@ -1,5 +1,5 @@
 import React from 'react'
-import hero from '../assets/hero.png'
+import hero from '../assets/cat-hero.png'
 import ReactTyped from 'react-typed'
 import { GoArrowDownRight } from "react-icons/go";
 import { GoArrowDown } from "react-icons/go";
@@ -7,7 +7,7 @@ import styles from './style'
 
 const Hero = () => {
   return (
-    <div className='w-full h-screen bg-default pt-[80px] font-text text-primary'>
+    <div className='w-full h-screen bg-default pt-[80px] font-text text-primary' id='hero'>
         <div className='max-w-[1240px] h-full mx-auto grid md:grid-cols-2 md:gap-10 gap-0'>
             <div className='w-[100%] h-[90%] flex flex-col justify-center items-start gap-[50px] text-center md:text-start'>
               <h1 className='w-full text-6xl md:text-6xl text-primary font-header'>Коткоистория</h1>

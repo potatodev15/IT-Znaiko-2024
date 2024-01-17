@@ -7,7 +7,7 @@ import { LuRefreshCw } from "react-icons/lu";
 
 const Boxes = () => {
   return (
-    <div className='w-full h-[105vh] md:h-[70vh] pt-10 bg-default font-text text-primary'>
+    <div className='w-full h-[105vh] md:h-[100vh] flex flex-col justify-center items-center pt-10 bg-default font-text text-primary' id='boxes'>
         <div className='max-w-[1240px] mx-auto flex flex-col justify-center items-center pt-[20px] gap-20'>
             <h1 className='text-6xl text-center font-header'>Защо коткоистория</h1>
             <div className='max-w-[1240px] flex flex-row flex-wrap items-center justify-center md:justify-between gap-10'>

@@ -17,6 +17,9 @@ export default {
         'header': ['Rubik Dirt', 'system-ui'],
         'text': ['IBM Plex Serif', 'serif']
       },
+      scale: {
+        '-100': '-1',
+      }
     },
   },
   plugins: [],
